@@ -1,0 +1,16 @@
+{
+  "name": "Control",
+  "description": "Manage your group, pregnant, insulin-using patients and more with this plugin.",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.github.io/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/Nereare/Control/issues"
+  },
+  "license": "Unlicense"
+}
