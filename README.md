@@ -2,7 +2,7 @@
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/Control)](https://github.com/Nereare/Control)
 [![License](https://img.shields.io/github/license/Nereare/Control.svg)](https://github.com/Nereare/Control)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 Manage your group, pregnant, insulin-using patients and more with this plugin.
 
