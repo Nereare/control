@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS psy_group (
   id         int(4)      ZEROFILL NOT NULL UNIQUE AUTO_INCREMENT,
   cns        bigint(15)  ZEROFILL NOT NULL,
   adding     date        NOT NULL,
-  leave      date        NOT NULL,
+  leaving    date        NOT NULL,
   diagnosis  varchar(4)  NOT NULL,
   PRIMARY KEY  (id),
   FOREIGN KEY (cns) REFERENCES patients(cns)
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS psy_meds (
   posology      varchar(16)  NOT NULL,
   presentation  varchar(16)  NOT NULL,
   dispensation  smallint(6)  ZEROFILL NOT NULL,
-  usage         tinytext     NOT NULL,
+  subscript     tinytext     NOT NULL,
   PRIMARY KEY  (id),
   FOREIGN KEY (patient) REFERENCES psy_group(id)
 ) $charset_collate;
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS pregnants (
   sis_pn               bigint(15)   ZEROFILL NOT NULL UNIQUE,
   cns                  bigint(15)   ZEROFILL NOT NULL,
   adding               date         NOT NULL,
-  leave                date         NOT NULL,
+  leaving              date         NOT NULL,
   lmp                  date         NOT NULL,
   us_date              date         NOT NULL,
   us_weeks             tinyint(2)   ZEROFILL NOT NULL,
@@ -170,5 +170,5 @@ CREATE TABLE IF NOT EXISTS tuberculosis (
   id int(4) ZEROFILL NOT NULL UNIQUE AUTO_INCREMENT,
   cns bigint(15) ZEROFILL NOT NULL,
   adding date NOT NULL,
-  leave date NOT NULL,
+  leaving date NOT NULL,
 ) $charset_collate;
